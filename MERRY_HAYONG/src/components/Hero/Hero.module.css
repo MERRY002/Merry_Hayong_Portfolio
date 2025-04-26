@@ -6,6 +6,7 @@
     align-items:center;
     justify-content: space-between;
     margin-top: 49px;
+    padding-top: 20px;
     z-index:1;
     margin-left:10%;
     margin-right:10%;
@@ -22,9 +23,6 @@
     font-weight: 900;
     margin-bottom: 33px;
     font-family:var(--font-roboto);
-    background: linear-gradient(90deg, rgba(255,255,255,1)70%, rgba(255,255,255,0)160%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
 }
 .description{
     font-size: 26px;
