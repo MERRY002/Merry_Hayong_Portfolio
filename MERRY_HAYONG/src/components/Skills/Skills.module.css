@@ -1,0 +1,95 @@
+@import "../../vars.css";
+
+.container{
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title{
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 14px;
+}
+.skills{
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    gap: 11px;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.skillimage{
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    transition: transform 0.3s, ease, box shadow 0.3s ease;
+}
+@keyframes bounce {
+    0% {
+        transform: scale(1) translateY(0);
+    }
+    30%{
+        transform: scale(1.05) translateY(-10px);
+    }
+    60%{
+        transform: scale(1.03) translateY(0px);
+    }
+    100%{
+        transform: scale(1.05) translateY(0px);
+    }
+    
+}
+.skillimage:hover{
+    animation: bounce 0.5s ease forwards;
+    box-shadow: 0px 4px 15px rgba(49, 115, 221, 0.862);
+}
+.skillimage img{
+    width: 75px;
+}
+.skill p{
+    font-size: 25px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 830px) {
+    .content{
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+    }
+    .skills{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .skillimage{
+        width:80px;
+        height: 80px;
+    }
+    .skillimage img{
+        width: 65%;
+    }
+}

@@ -1,0 +1,70 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "/assets/skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "/assets/skills/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "/assets/skills/react.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "/assets/skills/node.png"
+    },
+    {
+      "title": "C++",
+      "imageSrc": "/assets/skills/cplusplus.png"
+    },
+    {
+        "title": "Java",
+        "imageSrc": "/assets/skills/java.png"
+    },
+    {
+      "title": "C#",
+      "imageSrc": "/assets/skills/csharp.png"
+  },
+    {
+      "title": "JavaScript",
+      "imageSrc": "/assets/skills/javascript.png"
+    },
+    {
+      "title": "Sql",
+      "imageSrc": "/assets/skills/sql.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "/assets/skills/mongodb.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "/assets/skills/figma.png"
+    },
+    {
+      "title": "Unity",
+      "imageSrc": "/assets/skills/unity.png"
+    },
+    {
+      "title": "Git",
+      "imageSrc": "/assets/skills/git.png"
+    },
+    {
+      "title": "Jira",
+      "imageSrc": "/assets/skills/jira.png"
+    },
+    {
+      "title": "Selenium",
+      "imageSrc": "/assets/skills/selenium.png"
+    },
+    {
+      "title": "Postman",
+      "imageSrc": "/assets/skills/postman.png"
+    },
+    {
+      "title": "Canva",
+      "imageSrc": "/assets/skills/canva.png"
+    }
+  ]

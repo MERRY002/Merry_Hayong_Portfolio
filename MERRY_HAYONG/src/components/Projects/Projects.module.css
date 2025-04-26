@@ -1,0 +1,43 @@
+@import "../../vars.css";
+
+.container{
+    margin-top: 75px;
+    color: var(--color-text);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.title{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+.project{
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width:100%;
+    padding: 20px 30px;
+    /*remove scroll-bar*/
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /*gradient mask*/
+    mask-image: linear-gradient(to right, transparent, black 10%,black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 3%, black 95%, transparent);
+}
+.project::-webkit-scrollbar{
+    display: none;
+}
+.project>*{
+    flex: 0 0 auto;
+
+    scroll-snap-align: start;
+    transition: filter 0.5s ease, transform 0.5s ease;
+}

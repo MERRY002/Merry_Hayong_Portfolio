@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Remote Monitoring Pollution Simulator",
+        "imageSrc":"/assets/projects/remoteMonitoring.png",
+        "description":"A project made in unity. A pollution simulator which showcases the rise and fall of pollution level in a city which is affected by emissions from factories and cars. Trees help to reduce pollution level by 5% and houses determine the population count.",
+        "skills":["c#","xcharts","ml-agents"],
+        "source":"https://github.com/MERRY002/Remote-Monitoring-Pollution-Simulator"
+    },
+    {
+        "title": "Rescue Point",
+        "imageSrc":"/assets/projects/rescue.png",
+        "description":"Developed a web-based platform using the MERN stack to enable hospitals to share critical resources efficiently, improving patient care and operational speed. Implemented secure real-time data processing and user authentication, ensuring reliable and safe exchanges of medical resources. ",
+        "skills":["JavaScript","CSS","HTML","MERN"],
+        "source":"https://github.com/JScoder-git/BFCT-Hackathon"
+    },
+    {
+        "title": "CodeJett",
+        "imageSrc":"/assets/projects/codejett.png",
+        "description":"Co-developed an online collaborative coding platform with real-time synchronization, allowing developers to edit projects simultaneously from various locations. Designed a responsive user interface using React.js and managed backend APIs with Node.js, enhancing user engagement and platform reliability.",
+        "skills":["JavaScript","CSS","HTML","MERN"],
+        "source":"https://github.com/MERRY002/A-Collaborative-Coding-Platform"
+    },
+    {
+        "title": "Twitter Database Server",
+        "imageSrc":"/assets/projects/project.png",
+        "description":"Created a MySQL and Python-based server to automatically detect and remove duplicate tweets and filter out profanity as a measure against cyberbullying.Engineered a duplicate detection algorithm to enhance data integrity and efficiency in real-time content management on social platforms.",
+        "skills":["Java","MySql"],
+        "source":"https://github.com/MERRY002?tab=repositories"
+    },
+    {
+        "title": "GUI Based Personal Calender",
+        "imageSrc":"/assets/projects/calender.png",
+        "description":"A simple GUI based Calendar that has a multiple profile feature with a password lock for each profile. You can create a reminder schedule in this calendar along with a set time. Enabling users to effortlessly schedule, manage, and track events.",
+        "skills":["python","tkinter"],
+        "source":"https://github.com/MERRY002/Schedule_Calendar"
+    }
+    
+]
