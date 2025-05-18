@@ -18,7 +18,7 @@
         "imageSrc":"/assets/projects/codejett.png",
         "description":"Co-developed an online collaborative coding platform with real-time synchronization, allowing developers to edit projects simultaneously from various locations. Designed a responsive user interface using React.js and managed backend APIs with Node.js, enhancing user engagement and platform reliability.",
         "skills":["JavaScript","CSS","HTML","MERN"],
-        "source":"https://github.com/MERRY002/A-Collaborative-Coding-Platform"
+        "source":"https://codejett.vercel.app"
     },
     {
         "title": "Twitter Database Server",

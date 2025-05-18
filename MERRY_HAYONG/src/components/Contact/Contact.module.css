@@ -49,6 +49,8 @@
 @media screen and (max-width: 830px) {
     .container{
         flex-direction: column;
+        align-items: center;
+        text-align: center;
         gap: 23px;
     }
     .text{
@@ -58,5 +60,9 @@
     }
     .links{
         align-items: center;
+    }
+    .link a{
+        align-items: center;
+        font-size: 23px;
     }
 }
