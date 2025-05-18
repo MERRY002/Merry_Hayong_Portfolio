@@ -76,3 +76,9 @@
     scroll-snap-align: start;
     transition: filter 0.5s ease, transform 0.5s ease;
 }
+@media screen and (max-width: 748px) {
+    .pagination{
+        display: none;
+    }
+    
+}
